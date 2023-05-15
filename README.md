@@ -2,4 +2,6 @@
 
 ## How to use :
 
-flaskapi your-project-name
+- simple command: `flaskapi your-project-name`
+
+- choose your python version: `flaskapi your-project-name --python 3.7`
