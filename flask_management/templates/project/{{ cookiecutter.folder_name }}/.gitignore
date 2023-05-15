@@ -139,5 +139,3 @@ cython_debug/
 
 # Text Editor
 .vscode
-.idea
-dist/

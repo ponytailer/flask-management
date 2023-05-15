@@ -1,2 +1,5 @@
 # flask-management
-flask management, quickly create the flask project.
+
+## How to use :
+
+flaskapi your-project-name
