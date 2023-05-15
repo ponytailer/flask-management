@@ -20,10 +20,6 @@ typer = "*"
 cookiecutter = ">= 1.7.2"
 pydantic = { version = ">=1.7.2", extras = ["email"] }
 
-[tool.poetry.dev-dependencies]
-pytest = "*"
-
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
