@@ -12,17 +12,17 @@ ALREADY_EXISTS = "Folder 'joe' already exists. 😞\n"
 
 def test_startproject_default(tmp_path: Path):
     with runner.isolated_filesystem(temp_dir=tmp_path):
-        result = runner.invoke(app, ["startproject", "joe"])
+        result = runner.invoke(app, ["joe"])
         assert result.output == CREATED_SUCCESSFULLY
         assert result.exit_code == 0
 
 
 def test_startproject_already_exists(tmp_path: Path):
     with runner.isolated_filesystem(temp_dir=tmp_path):
-        result = runner.invoke(app, ["startproject", "joe"])
+        result = runner.invoke(app, ["joe"])
         assert result.output == CREATED_SUCCESSFULLY
         assert result.exit_code == 0
 
-        result = runner.invoke(app, ["startproject", "joe"])
+        result = runner.invoke(app, ["joe"])
         assert result.output == ALREADY_EXISTS
         assert result.exit_code == 0
