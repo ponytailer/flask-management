@@ -11,10 +11,12 @@ default = true
 
 [tool.poetry.dependencies]
 python = "^{{ cookiecutter.python }}"
+
 flask = "*"
 blinker = "*"
 flask_migrate = "*"
 flask_sqlalchemy = "*"
+pydantic = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
