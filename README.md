@@ -1,5 +1,7 @@
 # flask-management
 
+![flask-management Actions](https://api.meercode.io/badge/ponytailer/flask-management?type=ci-score&lastDay=14)
+
 ## How to use :
 
 - simple command: `flaskapi your-project-name`
